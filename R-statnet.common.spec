@@ -1,17 +1,17 @@
 %global packname statnet.common
 %global rlibdir %{_libdir}/R/library
 
-Name: R-%{packname}
-Version: 3.1_0
-Release: 1
-Summary: Common R Scripts and Utilities Used by the Statnet Project Software
-Group: Sciences/Mathematics
-License: GPLv3
-URL: http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0: http://cran.r-project.org/src/contrib/%{packname}_3.1-0.tar.gz
-BuildArch: noarch
-Requires: R-core 
-BuildRequires: R-devel Rmath-devel texlive-collection-latex
+Name:             R-%{packname}
+Version:          3.1_0
+Release:          1
+Summary:          Common R Scripts and Utilities Used by the Statnet Project Software
+Group:            Sciences/Mathematics
+License:          GPLv3
+URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_3.1-0.tar.gz
+BuildArch:        noarch
+Requires:         R-core 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 
 %description
 This package contains non-statistical utilities used by
