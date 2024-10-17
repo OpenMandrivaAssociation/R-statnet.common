@@ -7,7 +7,7 @@ Release:          1
 Summary:          Common R Scripts and Utilities Used by the Statnet Project Software
 Group:            Sciences/Mathematics
 License:          GPLv3
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_3.1-0.tar.gz
 BuildArch:        noarch
 Requires:         R-core 
